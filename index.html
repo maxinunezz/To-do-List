@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="toDoList">
+        <h2>
+          To-Do List
+          <img src="/images/checklist.png" alt="checklist" />
+        </h2>
+        <div class="row">
+          <input type="text" id="input-box" placeholder="Add your task" />
+          <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="list-container">
+          <!-- <li class="checked">task one</li>
+          <li>task two</li>
+          <li>task three</li> -->
+        </ul>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
